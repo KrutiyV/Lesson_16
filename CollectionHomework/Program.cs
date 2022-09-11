@@ -29,7 +29,7 @@ namespace Homework
         public void voting()
         {
             Console.WriteLine("\nPlease, make a choise, write Yes or No");
-            List<string> votingList = new List<string> { };
+            List<string> votingList = new List<string> { };//actually, the votinglist is not necessary for the program work
             votingList.Add(Console.ReadLine());
             if (votingList.Contains("Yes"))
             {
@@ -43,3 +43,4 @@ namespace Homework
     }
 }
 
+//checked
